@@ -2,8 +2,8 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
-    Random random = new Random();
-    Scanner sc = new Scanner(System.in);
+    public static Random random = new Random();
+    public static Scanner sc = new Scanner(System.in);
 
     public static void main(String args[]){
         int[] numbers = new int[]{5,4,8,9,6,3,7,4,2,85,63,45,10};
