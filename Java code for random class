@@ -1,0 +1,15 @@
+import java.util.Random;
+
+public class Main {
+    public static void main(String args[]){
+     Scanner scan = new Scanner(System.in);
+        int[] numbers = new int[] Scan.nextInt;
+        
+        Random random = new Random();
+        int randomNumber = random.nextInt(numbers.length-1);
+        int a = numbers[randomNumber];
+        System.out.println("Your generated random number is:  ");
+        System.out.println(a);
+
+    }
+}
