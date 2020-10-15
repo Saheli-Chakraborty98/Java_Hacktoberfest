@@ -3,18 +3,15 @@ import java.util.Random;
 public class Main {
     public static void main(String args[]){
       Scanner scan = new Scanner(System.in);
-      System.Out.println("total digits");
+      System.Out.println("Total Numbers");
       int k = scan.nextInt();
-    for(int i=0; i<=k; i++)
-  {
-    int n = scan.nextInt();
-        int[] numbers = new int[]{n};}
+      int[] numbers = new int[k];
+      for(int i=0; i<k; i++) {
+        numbers[i] = scan.nextInt();
+      }
         Random random = new Random();
-      
-        int ranNum = random.nextInt(numbers.length-1);
+        int ranNum = random.nextInt(numbers.length);
         int a = numbers[ranNum];
         System.out.print("Your generated random number is:  ");
         System.out.println(a);
-
-    }
 }
